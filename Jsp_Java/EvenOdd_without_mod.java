@@ -13,8 +13,19 @@ public class EvenOdd_without_mod {
             System.out.println("Odd");
         }
     }
+
+    public static void check1(int n)
+    {
+        if ((n & 1) == 1)
+            System.out.println("Odd");
+        else
+            System.out.println("Even");
+    }
+
+
     public static void main(String[] args) {
         check(8);
+        check1(7);
     }
     
 }
