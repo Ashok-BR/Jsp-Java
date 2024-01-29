@@ -25,6 +25,7 @@ public class EvenOdd_without_mod {
 
     public static void main(String[] args) {
         check(8);
+        
         check1(7);
     }
     
